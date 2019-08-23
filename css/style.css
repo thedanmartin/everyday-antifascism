@@ -1,0 +1,335 @@
+/* all styles here */
+
+/* orange color is #FF8E39, grey color is #CCCCCC */
+
+html, body	{
+
+	width: 100%;
+	height: 100%;
+
+}
+
+.container	{
+
+	width: 100%;
+	height: 100%;
+
+}
+
+a:link, a:visited	{
+
+	color: #FF8E39;
+	text-decoration: none;
+
+}
+
+a:hover	{
+
+	color: #15459E;
+	text-decoration: none;
+
+}
+
+.landing	{
+
+	width: 100%;
+	height: 100%;
+
+	background-color: #cccccc;
+	background-image: url("../images/arrows.png");
+	background-size: landing;
+	
+}
+
+.landing-text	{
+
+	font-family: gibbs, sans-serif;
+	font-weight: 900;
+	font-style: normal;
+	font-size: 15em;	
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+
+.section	{
+	
+	width: 100%;
+	height: 100%;
+	
+	font-family: gibbs, sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 1em;
+	line-height: 1.25em;
+
+}
+
+.para1box	{
+
+	background-color: white;
+	opacity: .75;
+	padding: 30px;
+
+}
+
+.para1text	{
+
+	color: black;
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 150px;
+	margin-right: 1000px;
+
+}
+
+.para1	{
+
+	background-image: url("../images/para1.jpg");
+	background-size: 100% 100%;
+
+}
+
+.leftbox	{
+	
+	background: url("../images/tornpaper.svg"); 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: -322% 50%; 
+	/*background-repeat: no-repeat;
+	background-size: cover;*/
+	
+	height: 100%;
+	width: 50%;
+	
+}
+
+.leftboxtext	{
+	
+	color: black;
+	font-family: gibbs, sans-serif;
+	font-weight: 900;
+	font-size: 72px;
+	line-height: 100px;
+	text-align: right;
+	padding-right: 120px;
+	
+}
+
+.rightbox	{
+	
+	width: 30%;
+	height: 100%;	
+
+}
+
+.rightboxtext {
+
+	font-family: gibbs, sans-serif;
+	font-style: normal;
+	margin-left: 900px;
+	margin-top: -800px;
+
+}
+
+.bookbox {
+
+	width: 100%;
+	height: 100%;
+
+	background: url("../images/backgroundpaper.png"); 
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: 100%;
+	
+}
+
+.bookboxtext {
+
+	color: black;
+	font-size: 1.2em;
+	line-height: 1.3em;
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 250px;
+	margin-right: 650px;
+
+}
+
+.header	{
+
+	color: #black;
+	
+	font-family: gibbs, sans-serif;
+	font-weight: 900;
+	font-size: 1.3em;
+	font-style: normal;
+
+}
+
+.book-cover {
+
+	height: 50%;
+	position: absolute;
+	margin-top: 250px;
+	margin-left: 900px;
+	margin-right: 300px;
+	
+}
+
+.click-here {
+
+	color: #FF8E39;
+	
+	font-family: gibbs, sans-serif;
+	font-weight: 900;
+	font-size: 1.3em;
+	font-style: normal;
+
+}
+
+.orange-tactics	{
+
+	color: #FF8E39;
+
+}
+
+.tactics-intro {
+
+	background-image: url("../images/tactics.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: 100%;
+  
+}
+
+.tactics-text {
+
+	color: white;
+	font-size: 1.2em;
+	line-height: 1.3em;
+  position: absolute;
+  margin-top: 400px;
+	margin-left: 950px;
+	margin-right: 230px;
+
+}
+
+.tactics-header	{
+
+	color: #CCCCCC;
+	
+	font-family: gibbs, sans-serif;
+	font-weight: 900;
+	font-size: 10em;
+	font-style: normal;
+
+}
+
+.research {
+
+	background-image: url("../images/research-background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+.research-text {
+
+	color: white;
+	font-size: 1.2em;
+	line-height: 1.3em;
+  position: absolute;
+  margin-top: 400px;
+	margin-left: 550px;
+	margin-right: 230px;
+
+}
+
+.communicate {
+
+	background-image: url("../images/communicate-background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+.communicate-text {
+
+	color: white;
+	font-size: 1.2em;
+	line-height: 1.3em;
+  position: absolute;
+  margin-top: 200px;
+	margin-left: 100px;
+	margin-right: 600px;
+
+}
+
+.dox {
+
+	background-image: url("../images/dox-background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+.dox-text {
+
+	color: white;
+	font-size: 1.2em;
+	line-height: 1.3em;
+  position: absolute;
+  margin-top: 220px;
+	margin-left: 500px;
+	margin-right: 200px;
+
+}
+
+.support {
+
+	background-image: url("../images/support-background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+.support-text {
+
+	color: white;
+	font-size: 1.2em;
+	line-height: 1.3em;
+  position: absolute;
+  margin-top: 150px;
+	margin-left: 650px;
+	margin-right: 230px;
+
+}
+
+.educate {
+
+	background-image: url("../images/educate-backgound.png");
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+.educate-text {
+
+	color: white;
+	font-size: 1.2em;
+	line-height: 1.3em;
+  position: absolute;
+  margin-top: 200px;
+	margin-left: 150px;
+	margin-right: 700px;
+
+}
